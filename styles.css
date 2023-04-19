@@ -79,3 +79,47 @@ button:active {
 	box-shadow: 0 5px #666;
 	transform: translateY(4px);
 }
+
+.white-part {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 30px;
+}
+
+.big-dark {
+	font-weight: bold;
+	font-size: 36px;
+	color: #1f2937;
+	margin-bottom: 30px;
+}
+
+.image-part {
+	display: flex;
+	gap: 40px;
+	justify-content: center;
+	width: auto;
+}
+
+.image-textbox {
+	flex-basis: auto;
+	width: 150px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.image {
+	border: 3px solid #3882f6;
+	border-radius: 10px;
+	flex-basis: auto;
+	width: 150px;
+	height: 150px;
+	margin-bottom: 10px;
+}
+
+.lil-text.grey {
+	color: #1f2937;
+	text-align: center;
+}
